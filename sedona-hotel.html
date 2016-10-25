@@ -3,8 +3,6 @@
   <head>
     <meta charset="utf-8">
     <title>Sedona</title>
-  </head>
-  <body>
     <header class="main-header">
       <div class="container">
         <nav class="main-navigation">
@@ -13,57 +11,117 @@
             <li><a href="#">Фото и видео</a></li>
             <li><a href="#">Карта штата</a></li>
             <li><a href="#">Гостиницы</a></li>
+            <li><img heigh="30px" weight="30px" src="sedona/logo.png" alt="logo"></li>
           </ul>
         </nav>
       </div>
-      <div class="index-logo">
-        <img heigh="30px" weight="30px" src="sedona/logo.png" alt="logo">
-      </div>
       </header>
-      <body>
-        <div class="back-img">
-          <img src="##" alt="Фон">
-        </div>
-        <div class="choose">
-          <table>
-            <tr>
-              <td> Инфраструктура:</td>
-              <td> Тип жилья:</td>
-              <td> Стоимость в сутки:</td>
-            </tr>
-            <tr>
-              <td><input id="swimming-pool" name ="swimming-pool" type="checkbox"checked > Бассейн </td>
-              <td><input id="Hostel" name ="Hostel" type="checkbox" > Гостиница </td>
-              <td> от 0 </td>
-              <td> до 3000 </td>
-            </tr>
-            <tr>
-              <td><input id="parking" name ="parking" type="checkbox" >Парковка </td>
-              <td><input id="Motel" name ="Motel" type="checkbox" checked> Мотель </td>
-              <td border="1px solid black;">  </td>
-            </tr>
-            <tr>
-              <td><input id="wi-fi" name ="wi-fi" type="checkbox" >Wi-Fi </td>
-              <td><input id="Apart" name ="Apert" type="checkbox" checked> Апартаменты </td>
-              <td><input id="button" name="button" type="submit" value="Показать">  </td>
-            </tr>
-          </div>
-          <div class="Find">
-            <h3>Найдено</h3>
-          </div>
-          <p class="sort">Сортировка</p>
-          <p class="cost">По цене</p>
-          <p class="type">По типу</p>
-          <p class="rate">По рейтингу</p>
-          <div class="hostel-find">
-          <hr>
-          <div class="amara">
-            <img src="##" alt="Amara hotel">
-            <!-- Начал делать найденные отели. прописал только фото -->
-            <div>
-          </div>
+  </head>
 
-          </table>
-        </div>
+      <body>
+        <section>
+          <div class="choose">
+            <div class="bg-img">
+              <img src="##" alt="Фон" height="50" width="50">
+            </div>
+            <div class="parametrs">
+              <span>Инфраструктура:</span>
+              <span>Тип жилья:</span>
+              <span> Стоимость в сутки (Р):</span>
+              <span>от 0 до 3000</span>
+
+              <input id="swimming-pool" name ="swimming-pool" type="checkbox"checked > Бассейн
+
+              <input id="Hostel" name ="Hostel" type="checkbox" > Гостиница
+
+              <input id="parking" name ="parking" type="checkbox" >Парковка
+
+              <input id="Motel" name ="Motel" type="checkbox" checked> Мотель
+
+              <input id="wi-fi" name ="wi-fi" type="checkbox" >Wi-Fi
+
+              <input id="Apart" name ="Apert" type="checkbox" checked> Апартаменты
+
+              <input id="button" name="button" type="submit" value="Показать">
+            </div>
+          </div>
+        </section>
+
+          <div class="Find">
+            <h2>Найдено</h2>
+          </div>
+          <div class="">
+            <span class="sort">Сортировка</span>
+            <span class="cost">По цене</span>
+            <span class="type">По типу</span>
+            <span class="rate">По рейтингу</span>
+          </div>
+      <hr>
+          <section>
+            <div class="amara-img">
+              <img src="##" alt="Amara Resort" height="100" width="100" />
+            </div>
+            <div class="description-hotels">
+              <span>Гостиница</span>
+              <span> от 3500 Р.</span>
+            </div>
+            <div class="buttons-hotels">
+                <button class="detail-btn">Подробнее</button>
+                <button class="reserve-btn">Забронировать</button>
+            </div>
+            <div class="rate">
+              <span>Рейтинг 8,5</span>
+            </div>
+          </section>
+        <hr>
+          <section>
+            <div class="desert-img">
+              <img src="##" alt=" Desert Qail INN" height="100" width="100" />
+            </div>
+            <div class="description-hotels">
+              <span>Мотель</span>
+              <span> от 2000 Р.</span>
+            </div>
+            <div class="buttons-hotels">
+                <button class="detail-btn">Подробнее</button>
+                <button class="reserve-btn">Забронировать</button>
+            </div>
+            <div class="rate">
+              <span>Рейтинг 8,9</span>
+            </div>
+          </section>
+        <hr>
+          <section>
+            <div class="villas-img">
+              <img src="##" alt=" Villas at poco diablo" height="100" width="100" />
+            </div>
+            <div class="description-hotels">
+              <span>Апартаменты</span>
+              <span> от 4000 Р.</span>
+            </div>
+            <div class="buttons-hotels">
+                <button class="detail-btn">Подробнее</button>
+                <button class="reserve-btn">Забронировать</button>
+            </div>
+            <div class="rate">
+              <span>Рейтинг 9,2</span>
+            </div>
+          </section>
+          <footer class="main-footer">
+            <div class="container">
+              <section class="footer-contacts">
+              <b>#VISITSEDONA</b>
+            </selection>
+            <section class="footer-social">
+              <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+              <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+              <a class="social-btn social-btn-yout" href="#">Ютуб</a>
+            </section>
+            <div class="academy">
+              <img src="sedona/academy.png" alt="Разработано html academy" />
+            </div>
+            </div>
+          </footer>
+
       </body>
     </html>
