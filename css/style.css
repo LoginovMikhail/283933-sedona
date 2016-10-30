@@ -37,7 +37,7 @@ background: rgba(0, 128, 0, 0.2);
 
 .main-navigation {
 min-height: 56px;
-width:1200px;
+width:1056px;
 margin-left: auto;
 margin-right: auto;
 background: rgba(255, 45, 82, 0.2);
@@ -55,7 +55,7 @@ box-shadow: inset 0 0 0 2px rgb(234, 255, 45); /*желтый*/
 
 .container {
 min-height: 56px;
- width:701px;
+ width:1056px;
  margin-left: auto;
  margin-right: auto;
  background: rgba(0, 128, 0, 0.2);
@@ -157,9 +157,10 @@ background: rgba(255, 45, 82, 0.2);
 }
 
 .search {
-  margin-top: 55px;
   width: 576px;
   height: 483px;
+  margin-top: 55px;
+  margin-bottom: 79px;
   margin-left: auto;
   margin-right: auto;
   background: rgba(255, 45, 82, 0.2);
@@ -170,7 +171,7 @@ background: rgba(255, 45, 82, 0.2);
 min-height: 56px;
 background: rgba(0, 128, 0, 0.2);
   box-shadow: 0 0 0 3px green;  /*зеленый*/
-  margin-top: 79px;
+  margin-top: px;
 }
 
 .down-block {
@@ -209,4 +210,112 @@ background: rgba(255, 45, 82, 0.2);
   background: rgba(234, 255, 45, 0.2);
   box-shadow: inset 0 0 0 2px rgb(234, 255, 45); /*желтый*/
   margin-right: 0px;
+}
+
+.left-column {
+  float: left;
+width: 404px;
+min-height: 218px;
+background: rgba(255, 45, 82, 0.2);
+  box-shadow: 0 0 0 3px rgb(255, 45, 82); /*красный*/
+
+}
+
+.info {
+  float: left;
+  margin: 10px 0px;
+  margin-right: 100px;
+  width: 152px;
+  height: 197px;
+  background: rgba(234, 255, 45, 0.2);
+  box-shadow: inset 0 0 0 2px rgb(234, 255, 45); /*желтый*/
+}
+
+.type-live {
+  float: left;
+  margin: 10px 0px;
+  width: 152px;
+  height: 197px;
+  background: rgba(234, 255, 45, 0.2);
+  box-shadow: inset 0 0 0 2px rgb(234, 255, 45); /*желтый*/
+
+}
+
+.right-column {
+  float: right;
+    margin: 25px 0px;
+width: 328px;
+min-height: 50px;
+background: rgba(255, 45, 82, 0.2);
+  box-shadow: 0 0 0 3px rgb(255, 45, 82); /*красный*/
+
+}
+
+.parametrs {
+width: 328px;
+height: 167px;
+background: rgba(234, 255, 45, 0.2);
+box-shadow: inset 0 0 0 2px rgb(234, 255, 45); /*желтый*/
+}
+
+.stroke {
+  clear: both;
+  float: left;
+  margin-top: 20px;
+  margin-bottom: 30px;
+width: 600px;
+height: 45px;
+background: rgba(234, 255, 45, 0.2);
+box-shadow: inset 0 0 0 2px rgb(234, 255, 45); /*желтый*/
+
+}
+
+.hotel-stroke {
+  float: left;
+  margin: 30px 0px;
+  width: 1056px;
+  height: 151px;
+  background: rgba(255, 45, 82, 0.2);
+    box-shadow: 0 0 0 3px rgb(255, 45, 82); /*красный*/
+}
+
+.hotel-stroke:last-child {
+margin-bottom:0px;
+}
+.img-hotel {
+  margin: 30px 0px;
+ float: left;
+ width: 135px;
+ height: 92px;
+ background: rgba(234, 255, 45, 0.2);
+ box-shadow: inset 0 0 0 2px rgb(234, 255, 45); /*желтый*/
+}
+
+.desc-hotel {
+  margin: 30px 0px;
+  float: left;
+width: 259px;
+height: 92px;
+background: rgba(234, 255, 45, 0.2);
+box-shadow: inset 0 0 0 2px rgb(234, 255, 45); /*желтый*/
+}
+
+.rate {
+  display: block;
+  float: right;
+  width: 113px;
+  height: 27px;
+  margin-top: 93px;
+  /*padding: 11px 16px;*/
+  background: rgba(234, 255, 45, 0.2);
+  box-shadow: inset 0 0 0 2px rgb(234, 255, 45); /*желтый*/
+}
+
+.star {
+  margin-top: 30px;
+  float: right;
+  width: 90px;
+  height: 20px;
+  background: rgba(234, 255, 45, 0.2);
+  box-shadow: inset 0 0 0 2px rgb(234, 255, 45); /*желтый*/
 }
