@@ -117,8 +117,9 @@ float: right;;
 
 .description-block {
   width:100%;
-  background: rgba(0, 128, 0, 0.2);
-  box-shadow: 0 0 0 3px green;  /*зеленый*/
+  height: 256px;
+  background: rgba(167, 242, 255, 0.1);
+  box-shadow: 0 0 0 3px rgb(167, 45, 82);  /*aфиолетовый*/
 }
 
 
@@ -129,6 +130,8 @@ float: right;;
   background: rgba(255, 45, 82, 0.2);
   box-shadow: 0 0 0 3px rgb(255, 45, 82); /*красный*/
 }
+
+
 
 .img-description {
   display: inline-block;
@@ -200,6 +203,10 @@ box-shadow: 0 0 0 3px rgb(255, 45, 82); /*красный*/
   box-shadow: 0 0 0 3px rgb(255, 45, 82); /*красный*/
 }
 
+.puncts {
+  visibility: none;
+}
+
 .main-footer {
   min-height: 56px;
   background: rgba(0, 128, 0, 0.2);
@@ -234,6 +241,7 @@ box-shadow: 0 0 0 3px rgb(255, 45, 82); /*красный*/
   background: rgba(234, 255, 45, 0.2);
   box-shadow: inset 0 0 0 2px rgb(234, 255, 45); /*желтый*/
 }
+
 
 .academy {
   float: right;;
@@ -306,6 +314,7 @@ box-shadow: inset 0 0 0 2px rgb(234, 255, 45); /*желтый*/
 .punkt {
 float: left;
 display:block;
+visibility: hidden;
 }
 
 
